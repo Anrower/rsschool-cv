@@ -137,3 +137,10 @@ function whoseBicycle(diary1, diary2, diary3) {
 }
 ```
 ---
+### *Education:*
+ * The Rolling Scopes School (2020Q1, 2020Q3, 2021Q3)
+ * [HTML academy](https://htmlacademy.ru/profile/id1359881)
+ * [JS](https://ru.code-basics.com/languages/javascript)
+ * Senla web Development course (November 2020 - June 2021)
+ * Html, CSS, JS basic course on (https://ru.code-basics.com)
+ ---
