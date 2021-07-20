@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://Anrower.github.io/rsschool-cv/cv
