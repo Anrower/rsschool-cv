@@ -61,3 +61,79 @@
     3. Conclusion
 
 ---
+### *Code examples:* 
+```javascript
+function whoseBicycle(diary1, diary2, diary3) {
+  
+  let firstSonSumMarks = getSumMarks(diary1),
+      secondSonSumMarks = getSumMarks(diary2),
+      thirdSonSumMarks = getSumMarks(diary3);
+      
+  const ageTable = {
+    'firstSonAge': 14,
+    'secondSonAge': 9,
+    'thirdSonAge': 8
+  }
+  
+  function getSumMarks(obj) {
+    let sum = 0;
+    for (let key in obj) {
+      sum += obj[key];
+    }
+    return sum;
+  } 
+
+  class Son {
+    
+    constructor(age, sumMarks, index) {
+      this.age = age,
+      this.sumMarks = sumMarks,
+      this.index = index;
+    }
+
+  }
+
+  let firstSon = new Son(ageTable.firstSonAge, firstSonSumMarks, 'first'),
+      secondSon = new Son(ageTable.secondSonAge, secondSonSumMarks, 'second'),
+      thirdSon = new Son(ageTable.thirdSonAge, thirdSonSumMarks, 'third')
+      
+  let sonsArr = [firstSon, secondSon, thirdSon];
+
+  sortByMarksValue(sonsArr);
+  
+  function sortByMarksValue (arr) {
+    arr.sort(function (a, b) {
+      if (a.sumMarks > b.sumMarks) {
+        return 1;
+      }
+      if (a.sumMarks < b.sumMarks) {
+        return -1;
+      }
+      return 0;
+    });
+  }
+  
+  let [a, b, c] = sonsArr;
+  
+  if(c.sumMarks !== b.sumMarks) {
+    return `I need to buy a bicycle for my ${c.index} son.`
+    
+  }else if(c.sumMarks === b.sumMarks && c.sumMarks !== a.sumMarks) {
+    let result = (c.age < b.age) ?
+        `I need to buy a bicycle for my ${c.index} son.` :
+        `I need to buy a bicycle for my ${b.index} son.`;
+    return result;
+    
+  }else {
+    let result = (c.age < b.age && c.age < a.age) ?
+        `I need to buy a bicycle for my ${c.index} son.` :
+        (b.age < c.age && b.age < a.age) ?
+        `I need to buy a bicycle for my ${b.index} son.` :
+        `I need to buy a bicycle for my ${a.index} son.`;
+
+    return result;
+  }
+         
+}
+```
+---
