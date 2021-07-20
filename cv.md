@@ -144,3 +144,6 @@ function whoseBicycle(diary1, diary2, diary3) {
  * Senla web Development course (November 2020 - June 2021)
  * Html, CSS, JS basic course on (https://ru.code-basics.com)
  ---
+
+ ### *English:*
+I have a certificate of successful completed of Pre-Intermediate courses (A2) from 12.02.19 to 15.10.19. And I'm still improving my English every day. I read articles, including technical ones, use applications such as Duolingo and Lingualeo, watch videos.
