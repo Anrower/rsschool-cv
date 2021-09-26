@@ -60,3 +60,8 @@ function DNAStrand(dna) {
  * The Rolling Scopes School JS/FE Pre-School (July 2021 - September 2021)
  * The Rolling Scopes School (JSFE2021Q3 - now)
  ---
+### *Projects:*
+* [Landing Save a Life](https://save-life-anrower.netlify.app/#take-home)
+* [Todo app (js)](https://vigilant-hoover-9df2fa.netlify.app/)
+* [Virtual drum (js)](https://rolling-scopes-school.github.io/anrower-JSFEPRESCHOOL/drum-kit/)
+---
