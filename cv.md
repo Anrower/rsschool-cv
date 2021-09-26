@@ -65,3 +65,6 @@ function DNAStrand(dna) {
 * [Todo app (js)](https://vigilant-hoover-9df2fa.netlify.app/)
 * [Virtual drum (js)](https://rolling-scopes-school.github.io/anrower-JSFEPRESCHOOL/drum-kit/)
 ---
+### *Languages:*
+* Russian (Native)
+* English (A2)
