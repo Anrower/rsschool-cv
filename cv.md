@@ -6,3 +6,31 @@
 * *[Email](https://anrowerdd@gmail.com)*
 * *[Telegram](https://t.me/Anrower)*
 ---  
+### *Summary*:
+
+* #### *About:*
+    Hi, call me Denis, I'm a junior frontend developer,
+    the most important thing for me it's not wasting time,
+    constantly studing, learn something new. My goal's
+    is to become a front-end developer. I can focus on a task.
+    I react correctly to criticism and draw right conclusions from it.
+* #### *Goals:*
+    * Hard Skills:
+        1. [x] HTML;
+        2. [x] CSS;
+        3. [+-] JS core;
+        4. [x] GIT basic;
+        5. [-] OOP fundamentals;
+        6. [-] Experience with Node.js and npm
+        7. [-] Experience with Vue.js, React JS, Angular or TypeScript;
+        8. [-] CSS preprocessor (SCSS/LESS/SASS) one of them;
+        9. [x] English level A2 or higher;
+        10. [-] WebPack
+    * Soft skills:    
+        1. [-] Teamwork
+        2. [x] Leadership
+        3. [x] Presentation
+        4. [x] Problem solving
+        5. [x] Communication
+        6. [x] Adaptability
+---
