@@ -193,7 +193,6 @@
               a experienced front-end developer. I can focus on a task.
               I react correctly to criticism and draw right conclusions from it.
             </p>
-            </p>
           </header>
           <article id="experience" class="article experience">
             <h3 class="title experience__title">Experience:</h3>
@@ -266,7 +265,7 @@
                 there is no DNA at all (again, except for Haskell).</p>
               <p class="code__text">
                 More similar exercise are found here:
-                <a href="http://rosalind.info/problems/list-view/">(source)<a>
+                <a href="http://rosalind.info/problems/list-view/">(source)</a>
               </p>
               <p class="code__text">
                 Example: (input: output)<br>
@@ -274,8 +273,8 @@
                 DNAStrand ("GTAT") // return "CATA"<br>
               </p>
             </details>
-            <p>
-            <pre class="code-example"><code class="js">
+            <pre>
+              <code class="code-example js">
 function DNAStrand(dna) {
   const dnaPair = {
     A: "T",
@@ -283,34 +282,30 @@ function DNAStrand(dna) {
     C: "G",
     G: "C"
   }
-  
+
   let result = "";
 
-  result += dnaPair[dna[i]]
-  for(let i = 0; i < dna.length; i++){
-}
-  
+  for(let i = 0; i &lt dna.length; i++) {
+    result += dnaPair[dna[i]]
+  }
+
   return result;
 }
-            </code><pre>
-            </p>
+            </code>
+          </pre>
           </article>
           <article id="extra" class="extra">
             <h3 class="title extra__title">Extra:</h3>
             <div class="extra__stats">
               <div class="extra__codewars">
                 <img class="extra__codewars" srcset="https://www.codewars.com/users/Anrower/badges/micro 710w,
-                https://www.codewars.com/users/Anrower/badges/large 720w"
-                sizes="(max-width: 710px) 710px,
-                720px"
-                src="https://www.codewars.com/users/Anrower/badges/large" alt="codewars stats">
+                https://www.codewars.com/users/Anrower/badges/large 720w" sizes="(max-width: 710px) 710px,
+                720px" src="https://www.codewars.com/users/Anrower/badges/large" alt="codewars stats">
               </div>
               <div class="extra__rss">
                 <img class="rss__image" srcset="images/rss_stat_m.jpg 710w,
-                images/rss_stats.jpg 720w"
-                sizes="(max-width: 710px) 710px,
-                720px"   
-                 src="images/rss_stats.jpg" alt="rolling scopes school stats">
+                images/rss_stats.jpg 720w" sizes="(max-width: 710px) 710px,
+                720px" src="images/rss_stats.jpg" alt="rolling scopes school stats">
               </div>
             </div>
           </article>
@@ -320,7 +315,7 @@ function DNAStrand(dna) {
     <footer class="footer">
       <ul class="footer__list">
         <li>
-          <a href="https://github.com/Anrower" target="_blank">
+          <a class="git__link" href="https://github.com/Anrower" target="_blank">
             <i class="fab fa-github"></i>
           </a>
         </li>
@@ -329,7 +324,7 @@ function DNAStrand(dna) {
         </li>
         <li>
           <a class="rss__link" href="https://rs.school/js/" target="_blank">
-            <img src="images/rs_school_js.svg" alt="rolling scopes school"><img>
+            <img src="images/rs_school_js.svg" alt="rolling scopes school">
           </a>
         </li>
       </ul>
