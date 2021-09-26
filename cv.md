@@ -54,3 +54,9 @@ function DNAStrand(dna) {
 }
 ```
 ---
+### *Courses:*
+ * HTML academy (September 2020 - October2020)
+ * Senla web Development course (November 2020 - June 2021)
+ * The Rolling Scopes School JS/FE Pre-School (July 2021 - September 2021)
+ * The Rolling Scopes School (JSFE2021Q3 - now)
+ ---
