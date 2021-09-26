@@ -34,3 +34,23 @@
         5. [x] Communication
         6. [x] Adaptability
 ---
+### *Code examples:* 
+```javascript
+function DNAStrand(dna) {
+  const dnaPair = {
+    A: "T",
+    T: "A",
+    C: "G",
+    G: "C"
+  }
+  
+  let result = "";
+
+  result += dnaPair[dna[i]]
+  for(let i = 0; i < dna.length; i++){
+}
+  
+  return result;
+}
+```
+---
