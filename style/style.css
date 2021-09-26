@@ -341,8 +341,12 @@ ul > li {
   transform: scale(1.2);
 }
 
+.git__link,
 .rss__link {
   display: block;
+}
+
+.rss__link {
   width: 100px;
   padding: 5px;
   border-radius: 5px;
