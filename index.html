@@ -264,11 +264,17 @@
               <p class="code__text">In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA
                 strand is never empty or
                 there is no DNA at all (again, except for Haskell).</p>
-              <p class="code__text"> More similar exercise are found here: <a href="http://rosalind.info/problems/list-view/">(source)</a></p>
-              <p class="code__text">Example: (input: output)<br>
+              <p class="code__text">
+                More similar exercise are found here:
+                <a href="http://rosalind.info/problems/list-view/">(source)<a>
+              </p>
+              <p class="code__text">
+                Example: (input: output)<br>
                 DNAStrand ("ATTGC") // return "TAACG"<br>
-                DNAStrand ("GTAT") // return "CATA"<br></p>
+                DNAStrand ("GTAT") // return "CATA"<br>
+              </p>
             </details>
+            <p>
             <pre class="code-example"><code class="js">
 function DNAStrand(dna) {
   const dnaPair = {
@@ -287,6 +293,7 @@ function DNAStrand(dna) {
   return result;
 }
             </code><pre>
+            </p>
           </article>
           <article id="extra" class="extra">
             <h3 class="title extra__title">Extra:</h3>
