@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/fonts.css">
+  <link rel="stylesheet" href="style/icons.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/media.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/monokai-sublime.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <title>CV</title>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <main class="main">
+      <section class="section_left">
+        <header class="header_left">
+          <figure>
+            <img class="my-photo" src="images/me.jpg" alt="My photo">
+          </figure>
+          <div class="header__headers_m">
+            <h1 class="header-title_m">Denis Shneidar</h1>
+            <h2 class="header-subtitle_m">Frontend Developer</h2>
+          </div>
+          <div class="burger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+            <ul class="menu__box">
+              <li class="menu__item"><a class="menu__item__link" href="#contacts">Contacts</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#language">Language</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#skills">Skills</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#projects">Projects</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#experience">Experience</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#courses">Courses</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#code">Code Example</a></li>
+              <li class="menu__item"><a class="menu__item__link" href="#extra">Extra</a></li>
+            </ul>
+          </div>
+          <div class="header__left_description">
+            <p class="header-text">
+              Hi, call me Denis, I'm a junior frontend developer,
+              the most important thing for me it's not wasting time,
+              constantly studing, learn something new. My goal's
+              is to become a front-end developer. I can focus on a task.
+              I react correctly to criticism and draw right conclusions from it.
+            </p>
+          </div>
+        </header>
+        <div class="inner-left-wrapper">
+          <article id="contacts" class="article contacts">
+            <h3 class="title contacts__title">Contacts:</h3>
+            <ul class="contacts__list">
+              <li class="contacts__list-item">
+                <a href="mailto:anrowerdd@gmail.com">
+                  <i class="icon icon_mail fas fa-envelope"></i>
+                </a>
+              </li>
+              <li class="contacts__list-item">
+                <a href="https://t.me/Anrower">
+                  <i class="icon icon_tlg fab fa-telegram-plane"></i>
+                </a>
+              </li>
+              <li class="contacts__list-item">
+                <a href="tel:+375447329496">
+                  <i class="icon icon_phone fas fa-phone-square-alt"></i>
+                </a>
+              </li>
+            </ul>
+          </article>
+          <article id="language" class="article language">
+            <h3 class="title language__title">Language:</h3>
+            <ul class="language__list">
+              <li class="language__list-item">
+                <i class="fas fa-circle"></i><span>Russian (Native)</span>
+              </li>
+              <li class="language__list-item">
+                <i class="fas fa-circle"></i><span>English (A2)</span>
+              </li>
+            </ul>
+          </article>
+          <article id="skills" class="article skills">
+            <h3 class="title skills__title">Skills:</h3>
+            <div class="skills__content">
+              <div class="skills__hard">
+                <h4 class="skills__subtitle">Hard Skills:</h4>
+                <ul class="skills__list">
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>Html</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>CSS</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>JS</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>Git</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="skills__soft">
+                <h4 class="skills__subtitle">Soft Skills:</h4>
+                <ul class="skills__list">
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>Problem solving</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>Communication</span>
+                  </li>
+                  <li class="skills__list-item">
+                    <i class="fas fa-circle"></i><span>Adaptability</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </article>
+          <article id="projects" class="article projects">
+            <h3 class="title projects__title">Projects:</h3>
+            <ul class="projects__list">
+              <li class="projects__list-item">
+                <h4 class="project__title">"Save a life"</h4>
+                <a class="projects__list-link" href="https://save-life-anrower.netlify.app/#take-home" target="_blank">
+                  <img class="project__image" src="images/save_a_life.jpg" alt="project image">
+                </a>
+                <details class="projects__details">
+                  <summary>
+                    <span class="project__description">description...</span>
+                  </summary>
+                  <p class="project__description">Several page site in which I learned to use, various css animations. Working with forms and their styling and validation with html. Got experience with flex model and BEM methodology. Also
+                    adapt the layout for mobile</p>
+                </details>
+              </li>
+              <li class="projects__list-item">
+                <h4 class="project__title">"Todo app"</h4>
+                <a class="projects__list-link" href="https://vigilant-hoover-9df2fa.netlify.app/" target="_blank">
+                  <img class="project__image" src="images/todo.jpg" alt="project image">
+                </a>
+                <details class="projects__details">
+                  <summary>
+                    <span class="project__description">description...</span>
+                  </summary>
+                  <p class="project__description">A simple to-do list app that got me familiar with DOM, local storage, browser events, JSON file.</p>
+                </details>
+              </li>
+              <li class="projects__list-item">
+                <h4 class="project__title">"Virtual drum"</h4>
+                <a class="projects__list-link" href="https://rolling-scopes-school.github.io/anrower-JSFEPRESCHOOL/drum-kit/" target="_blank">
+                  <img class="project__image" src="images/drum_kit.jpg" alt="project image">
+                </a>
+                <details class="projects__details">
+                  <summary>
+                    <span class="project__description">description...</span>
+                  </summary>
+                  <p class="project__description">When creating this application, I got experience in working with DOM, event delegation, key events, and mouse events, working with audio, also exp with data-attributes.</p>
+                </details>
+
+              </li>
+              <li class="projects__list-item">
+                <h4 class="project__title">"Movie gallery"</h4>
+                <a class="projects__list-link" href="https://adoring-jepsen-d79a66.netlify.app/index.html" target="_blank">
+                  <img class="project__image" src="images/film_lib.jpg" alt="project image">
+                </a>
+                <details class="projects__details">
+                  <summary>
+                    <span class="project__description">description...</span>
+                  </summary>
+                  <p class="project__description">A fairly large project that I continue to work on. Here I learned how to split the project into modules, work with API. Create fetch requests, work with data arrays, implemented page pagination
+                    and much more ...</p>
+                </details>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="section_right">
+        <div class="inner-right-wrapper">
+          <header class="header_right">
+            <h1 class="header-title">Denis Shneidar</h1>
+            <h2 class="header-subtitle">Junior Frontend Developer</h2>
+            <p class="header-text">
+              Hi, call me Denis. I'm a junior frontend developer
+              and the most important thing for me it's not wasting time,
+              constantly studing and learn something new. My goal's is to become
+              a experienced front-end developer. I can focus on a task.
+              I react correctly to criticism and draw right conclusions from it.
+            </p>
+            </p>
+          </header>
+          <article id="experience" class="article experience">
+            <h3 class="title experience__title">Experience:</h3>
+            <div class="experience__wrapper">
+              <div class="experience__item">
+                <i class="experience__icon fab fa-html5"></i>
+                <div class="progress__bar">
+                  <p class="progress__text"><span>80</span>%</p>
+                  <div class="progress__line html_progress"></div>
+                </div>
+              </div>
+              <div class="experience__item">
+                <i class="experience__icon fab fa-css3-alt"></i>
+                <div class="progress__bar">
+                  <p class="progress__text"><span>65</span>%</p>
+                  <div class="progress__line css_progress"></div>
+                </div>
+              </div>
+              <div class="experience__item">
+                <i class="experience__icon fab fa-git-square"></i>
+                <div class="progress__bar">
+                  <p class="progress__text"><span>45</span>%</p>
+                  <div class="progress__line git_progress"></div>
+                </div>
+              </div>
+              <div class="experience__item">
+                <i class="experience__icon fab fa-js-square"></i>
+                <div class="progress__bar">
+                  <p class="progress__text"><span>65</span>%</p>
+                  <div class="progress__line js_progress"></div>
+                </div>
+              </div>
+              <div class="experience__item">
+                <i class="experience__icon fab fa-node"></i>
+                <div class="progress__bar">
+                  <p class="progress__text"><span>20</span>%</p>
+                  <div class="progress__line node_progress"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article id="courses" class="article education">
+            <h3 class="title education__title">Courses:</h3>
+            <ul class="education__list">
+              <li>HTML academy (September 2020 - October2020)
+                <a class="education__list-link" href="//htmlacademy.ru/profile/id1359881" target="_blank">
+                  profile
+                </a>
+              </li>
+              <li>Senla web Development course (November 2020 - June 2021)</li>
+              <li>
+                The Rolling Scopes School JS/FE Pre-School (July 2021 - September 2021) <a class="education__list-link" href="https://app.rs.school/certificate/i7rlrr66" target="_blank">certificate</a>
+              </li>
+              <li>
+                The Rolling Scopes School (JSFE2021Q3 - now)
+              </li>
+            </ul>
+          </article>
+          <article id="code" class="article code">
+            <h3 class="title code__title">Code example:</h3>
+            <h4 class="code__subtitle">
+              Complementary DNA
+            </h4>
+            <details class="code__description">
+              <summary>Description...</summary>
+              <p class="code__text">Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.</p>
+              <p class="code__text">If you want to know more: <a href="http://en.wikipedia.org/wiki/DNA">Wiki</a></p>
+              <p class="code__text">In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G". You have function with one side of the DNA (string, except for Haskell); you need to get the other complementary side. DNA
+                strand is never empty or
+                there is no DNA at all (again, except for Haskell).</p>
+              <p class="code__text">
+                More similar exercise are found here:
+                <a href="http://rosalind.info/problems/list-view/">(source)<a>
+              </p>
+              <p class="code__text">
+                Example: (input: output)<br>
+                DNAStrand ("ATTGC") // return "TAACG"<br>
+                DNAStrand ("GTAT") // return "CATA"<br>
+              </p>
+            </details>
+            <p>
+            <pre class="code-example"><code class="js">
+function DNAStrand(dna) {
+  const dnaPair = {
+    A: "T",
+    T: "A",
+    C: "G",
+    G: "C"
+  }
+  
+  let result = "";
+
+  result += dnaPair[dna[i]]
+  for(let i = 0; i < dna.length; i++){
+}
+  
+  return result;
+}
+            </code><pre>
+            </p>
+          </article>
+          <article id="extra" class="extra">
+            <h3 class="title extra__title">Extra:</h3>
+            <div class="extra__stats">
+              <div class="extra__codewars">
+                <img class="extra__codewars" srcset="https://www.codewars.com/users/Anrower/badges/micro 710w,
+                https://www.codewars.com/users/Anrower/badges/large 720w"
+                sizes="(max-width: 710px) 710px,
+                720px"
+                src="https://www.codewars.com/users/Anrower/badges/large" alt="codewars stats">
+              </div>
+              <div class="extra__rss">
+                <img class="rss__image" srcset="images/rss_stat_m.jpg 710w,
+                images/rss_stats.jpg 720w"
+                sizes="(max-width: 710px) 710px,
+                720px"   
+                 src="images/rss_stats.jpg" alt="rolling scopes school stats">
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="footer__list">
+        <li>
+          <a href="https://github.com/Anrower" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <span>2021</span>
+        </li>
+        <li>
+          <a class="rss__link" href="https://rs.school/js/" target="_blank">
+            <img src="images/rs_school_js.svg" alt="rolling scopes school"><img>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
